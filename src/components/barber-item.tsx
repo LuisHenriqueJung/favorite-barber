@@ -16,7 +16,7 @@ const BarberItem = ({ barbershop }: BarberShopProps) => {
   const router = useRouter();
 
   const handleBookingClick = () => {
-    router.push(`/barbershops/${barbershop.id}`);
+    router.push(`/barbershop/${barbershop.id}`);
   };
   return (
     <Card className="min-w-[167px] max-w-[167px] rounded-2xl">
